@@ -1,0 +1,426 @@
+body {
+  font-size: 16px;
+  color: #262626;
+  background-color: #e6ffff;
+  font-family: 'Playfair Display', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/home_logo.png') no-repeat;
+  width: 100px;
+  height: 113px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Site's name */
+  font-family: 'Dancing Script', cursive;
+  color: #ff8533;
+  font-size: 1.5em;
+  text-transform: none;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px #ff751a;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Quote */
+  color: #000;
+  text-transform: none;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #404040;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #404040;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  color: #fff;
+  background-color: #404040;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#rooms, #decoration {
+  line-height: 1.5;
+}
+#rooms > span, #decoration > span {
+  font-size: 1.1em;
+}
+#quote p {
+  color: #ffad33;
+  font-size: 0.8em;
+  line-height: 1.8;
+  font-style: italic;
+}
+#copy {
+  font-size: 0.8em;
+  opacity: .8;
+}
+/* END FOOTER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 30px #e6ffff;
+  border: 1px solid #fff;
+}
+#rooms-tile, #interior-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+#rooms-tile:hover, #interior-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #ffad33;
+}
+
+#rooms-tile {
+  background: url('../images/rooms.jpg') no-repeat;
+  background-position: center;
+}
+#interior-tile {
+  background: url('../images/interior.jpg') no-repeat;
+  background-position: center;
+}
+#rooms-tile span, #interior-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* ROOMS PAGE*/
+.rooms-tile {
+  position: relative;
+  border: 1px solid #fff;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.rooms-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.rooms-tile:hover {
+  box-shadow: 0 1px 5px 1px #ffad33;
+}
+#rooms-title {
+  margin-bottom: 50px;
+}
+  /* END ROOMS PAGE*/
+
+/* KITCHEN PAGE */
+#kitchen-title + div {
+  margin-bottom: 30px;
+}
+.kitchen-tile {
+  margin-bottom: 25px;
+}
+.kitchen-tile hr {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #404040;
+}
+.kitchen-item-photo {
+  position: relative;
+  border: 1px solid #fff;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.kitchen-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  background-color: #e6ffff;
+  text-align: center;
+  opacity: .8;
+}
+.kitchen-item-description {
+  padding-right: 30px;
+}
+.h2, h2 {
+ margin-top: 0;
+ margin-bottom: 15px;
+}
+h3.kitchen-item-title {
+  margin: 0 0 10px;
+}
+.kitchen-item-details {
+  font-size: 0.9em;
+  font-style: italic;
+}
+/* END KITCHEN PAGE */
+
+/* CHILDREN ROOM PAGE*/
+.children-item-photo {
+  position: relative;
+  border: 1px solid #fff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto 15px;
+  max-width: 500px;
+  max-height: 350px;
+}
+.children-item-photo div, .children-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30px;
+  background-color: #e6ffff;
+  text-align: center;
+  opacity: .8;
+}
+.children-photo {
+  position: relative;
+  border: 1px solid #fff;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto 15px;
+  max-width: 300px;
+  max-height: 500px;
+}
+/* END CHILDREN ROOM PAGE*/
+
+/* BACKYARD PAGE*/
+.backyard-photo-1 {
+    position: relative;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto 25px;
+    max-width: 500px;
+    max-height: 300px;
+}
+.backyard-photo-2 {
+    position: relative;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto 25px;
+    max-width: 360px;
+    max-height: 230px;
+}
+  /* END BACKYARD PAGE*/
+
+  /* LIVING ROOM PAGE*/
+  .living-room-1-photo {
+    position: relative;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+    max-height: 500px;
+  }
+  .living-room-2-photo {
+    position: relative;
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 388px;
+    max-height: 447px;
+  }
+  /* END LIVING ROOM PAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/home_logo_md.png') no-repeat;
+    width: 88px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+
+  .living-room-1-photo, .living-room-2-photo {
+    margin-right: auto;
+  }
+  .children-item-photo {
+    max-height: 320px;
+  }
+  .backyard-photo-1 {
+    max-height: 270px;
+  }
+  .backyard-photo-2 {
+    max-height: 190px;
+  }
+}
+
+/********** Small devices only **********/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+  .living-room-1-photo, .living-room-2-photo, .backyard-photo-1, .backyard-photo-2 {
+    margin-right: auto;
+  }
+  .living-room-description {
+    text-align: center;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Site's name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Quote */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+  /* Footer */
+  .panel-footer section {
+    text-align: center;
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+  #rooms-tile, #interior-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /* End Home Page */
+  .kitchen-item-photo, .children-item-photo, .living-room-1-photo, .living-room-2-photo, .backyard-photo-1, .backyard-photo-2 {
+    margin-right: auto;
+  }
+  .kitchen-item-description, .living-room-description {
+    text-align: center;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Site's name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #rooms-tile, #interior-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  /* End Home Page */
+  /* ROOMS PAGE*/
+.col-xxs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%
+}
+/* END ROOMS PAGE*/
+}
