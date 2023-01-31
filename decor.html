@@ -36,10 +36,10 @@
 
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
-             <li class="visible-xs active">
-               <a href="index.html">
-                 <span class="glyphicon glyphicon-home"></span> Home</a>
-             </li>
+            <li class="visible-xs">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
             <li>
               <a href="./location.html">
                 <span class="glyphicon glyphicon-map-marker"></span><br class="hidden-xs"> Location</a>
@@ -48,7 +48,7 @@
               <a href="./rooms.html">
                 <span class="glyphicon glyphicon-bed"></span><br class="hidden-xs"> Structure</a>
             </li>
-            <li>
+            <li class="active">
               <a href="./decor.html">
                 <span class="glyphicon glyphicon-lamp"></span><br class="hidden-xs"> Design</a>
             </li>
@@ -63,26 +63,73 @@
   </header>
 
   <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of a house" class="img-responsive visible-xs">
-    </div>
-
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="rooms.html"><div id="rooms-tile"><span>rooms</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="decor.html"><div id="interior-tile"><span>interior</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://goo.gl/maps/HThnphv1onucRvp98" target="_blank">
-          <div id="map-tile">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.317744437223!2d-1.711740097251169!3d51.85515468630501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48712fc3db03f6b9%3A0xa46c8671bdebbf27!2z0JPRgNGN0LnRgiDQoNC40YHRgdC40L3Qs9GC0L7QvSwg0KfQtdC70YLQtdC90LXQvCBHTDU0IDJMVCwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90LjRjw!5e0!3m2!1sru!2sru!4v1592831036282!5m2!1sru!2sru" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <span>map</span>
+    <h2 id="rooms-title" class="text-center">Decoration</h2>
+    <section class="row">
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="kitchen.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/kitchen3.jpg" alt="Flowers">
+            <span>Flowers</span>
           </div>
         </a>
       </div>
-    </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="bathroom.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/bathroom2.jpg" alt="Bookshelves">
+            <span>Bookshelves</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="bedroom.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/bedroom.jpg" alt="Candles">
+            <span>Candles</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="children_room.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/child_room.jpg" alt="Pictures">
+            <span>Pictures</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="living_room.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/living_room3.jpg" alt="Embroidery">
+            <span>Embroidery</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="cabinet.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/cabinet.jpg" alt="Macrame">
+            <span>Macrame</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="attic.html">
+          <div class="rooms-tile">
+            <img width="200" height="200" src="./images/attik.jpg" alt="Fireplace">
+            <span>Fireplace</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+        <a href="terrace.html">
+          <div class="rooms-tile" class="hvr-ripple-out">
+            <img width="200" height="200" src="./images/swing2.jpg" alt="Staircase">
+            <span>Staircase</span>
+          </div>
+        </a>
+      </div>
+    </section>
   </div>
 
   <footer class="panel-footer">
